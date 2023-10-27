@@ -1,0 +1,3 @@
+module meuapp {
+    exports meuapp;
+}
