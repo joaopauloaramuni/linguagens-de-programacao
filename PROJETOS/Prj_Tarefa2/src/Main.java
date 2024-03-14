@@ -34,5 +34,18 @@ public class Main {
     //3) Escreva um programa que calcule a área de 4 cômodos de uma casa. O
     //programa deverá ler a largura e comprimento de cada cômodo, calcular e
     //mostrar a área de cada um.
-    private static void exercicio3() {}
+    private static void exercicio3() {
+        Scanner scn = new Scanner(System.in);
+        double largura = 0.0;
+        double comprimento = 0.0;
+        double area = 0.0;
+        for(int i = 1; i <= 4; i++){
+            System.out.print("Digite a largura do " + i + "° cômodo: ");
+            largura = scn.nextDouble();
+            System.out.print("Digite o comprimento do " + i + "° cômodo: ");
+            comprimento = scn.nextDouble();
+            area = largura * comprimento;
+            System.out.println("A área do " + i + "° cômodo é: " + area);
+        }
+    }
 }
