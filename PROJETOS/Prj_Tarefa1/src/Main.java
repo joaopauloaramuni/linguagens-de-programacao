@@ -56,7 +56,17 @@ public class Main {
     //4) Faça um programa que receba o salário de um funcionário e o
     //percentual de aumento, calcule e mostre o valor do aumento e o novo
     //salário.
-    private static void exercicio4() {}
+    private static void exercicio4() {
+        Scanner scn = new Scanner(System.in);
+        System.out.println("\nDigite o salário: ");
+        double salario = scn.nextDouble();
+        System.out.println("\nDigite o percentual de aumento: ");
+        double percentualAumento = scn.nextDouble();
+        double aumento = salario * (percentualAumento / 100);
+        double novoSalario = salario + aumento;
+        System.out.println("Você obteve um aumento de: " + aumento);
+        System.out.println("Seu novo salário é: " + novoSalario);
+    }
 
     //5) Faça um programa que receba o salário base de um funcionário,
     //calcule e mostre o salário a receber, sabendo-se que o funcionário tem
