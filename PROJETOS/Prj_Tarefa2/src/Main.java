@@ -21,15 +21,16 @@ public class Main {
     //final a soma e a média.
     private static void exercicio2() {
         Scanner scn = new Scanner(System.in);
-        int numero;
+        int numero = 0;
         int soma = 0;
-        for(int i = 1; i <= 10; i++){
+        for (int i = 0; i < 10; i++){
             System.out.println("Digite o número: ");
             numero = scn.nextInt();
             soma = soma + numero;
         }
-        System.out.println("A soma é: " + soma);
-        System.out.println("A média é: " + (soma/10));
+        //Conversão de tipo: soma int para double
+        double media = (double) soma / 10;
+        System.out.println("A média é: " + media);
     }
     //3) Escreva um programa que calcule a área de 4 cômodos de uma casa. O
     //programa deverá ler a largura e comprimento de cada cômodo, calcular e
