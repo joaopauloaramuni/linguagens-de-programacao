@@ -20,7 +20,7 @@ public class ExemploArrayList {
 		int i;
 
 		// [ C ] mostrando os "n" contatos da agenda (usando o índice)
-		// núero de elementos da agenda: método size()
+		// número de elementos da agenda: método size()
 		System.out.printf("Percorrendo o ArrayList (usando o índice)\n");
 		int n = agenda.size();
 		for (i = 0; i < n; i++) {
