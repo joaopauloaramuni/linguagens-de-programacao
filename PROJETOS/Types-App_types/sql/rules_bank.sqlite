@@ -1,0 +1,64 @@
+-- Inicia processos (read & write)
+-- ===============================
+BEGIN TRANSACTION;
+    
+-- Cria a tabela de Categorias
+-- ===========================
+CREATE TABLE Categories(
+    _id    INTEGER PRIMARY KEY AUTOINCREMENT,
+    _name  VARCHAR(60) NOT NULL UNIQUE,
+    _brief TEXT DEFAULT "...",
+    _color VARCHAR(7) DEFAULT "#000000"
+);
+
+-- Cria a tabela de tipos
+-- =======================
+CREATE TABLE Kinds(
+    _id        INTEGER PRIMARY KEY AUTOINCREMENT,
+    _name      VARCHAR(60) NOT NULL UNIQUE,
+    _name_ctg  VARCHAR(60) NOT NULL,
+    _icon      VARCHAR(700),
+    _exemple   TEXT DEFAULT "...",
+    _size      INT    NOT NULL, 
+    _min      VARCHAR(50),
+    _max      VARCHAR(50),
+    FOREIGN KEY (_name_ctg) REFERENCES Categories (_name)
+);
+
+INSERT INTO Categories (_name,_brief,_color) VALUES ('Integer','Conjunto númerico dos Inteiros','0000FF');
+
+
+INSERT INTO Categories (_name,_brief,_color) VALUES ('Real','Conjunto númerico dos Racionais','00FF00');
+
+
+INSERT INTO Categories (_name,_brief,_color) VALUES ('Text','Representa stream de texto','FF0000');
+
+
+INSERT INTO Categories (_name,_brief,_color) VALUES ('Logic','Representa os valores lógicos true e false','FF00FF');
+
+INSERT INTO Kinds (_name,_name_ctg,_icon,_exemple,_size,_min,_max) VALUES ('byte','Integer','type_byte.png','byte x=(byte) 1;',8,'-128','127');
+
+
+INSERT INTO Kinds (_name,_name_ctg,_icon,_exemple,_size,_min,_max) VALUES ('short','Integer','type_short.png','short x=(short) 1;',16,'-32768','32767');
+
+
+INSERT INTO Kinds (_name,_name_ctg,_icon,_exemple,_size,_min,_max) VALUES ('int','Integer','type_int.png','int x= 1;',32,'-2147483648','2147483647');
+
+
+INSERT INTO Kinds (_name,_name_ctg,_icon,_exemple,_size,_min,_max) VALUES ('long','Integer','type_long.png','long x= 1l;',64,'-9223372036854770000 ','9223372036854770000');
+
+
+INSERT INTO Kinds (_name,_name_ctg,_icon,_exemple,_size,_min,_max) VALUES ('float','Real','type_float.png','float x= 1.5f;',32,'-1.4024E-37','3.40282347E+38');
+
+
+INSERT INTO Kinds (_name,_name_ctg,_icon,_exemple,_size,_min,_max) VALUES ('double','Real','type_double.png','double x= 1.450;',64,'-4.94E-307','1.79769313486231570E + 308');
+
+
+INSERT INTO Kinds (_name,_name_ctg,_icon,_exemple,_size,_min,_max) VALUES ('char','Text','type_char.png','char x=''A'';',16,'0' ,'65535');
+
+INSERT INTO Kinds (_name,_name_ctg,_icon,_exemple,_size,_min,_max) VALUES ('string','Text','type_string.png','String x="abc";',64,'0 ','179769313486231570E + 308');
+
+INSERT INTO Kinds (_name,_name_ctg,_icon,_exemple,_size,_min,_max) VALUES ('bool','Logic','type_bool.png','boolean x=true;',1,'0','1');
+
+
+COMMIT;
