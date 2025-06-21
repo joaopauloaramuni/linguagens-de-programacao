@@ -21,6 +21,16 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 - [IntelliJ IDEA Download](https://www.jetbrains.com/idea/download/)
 - [Java SE Development Kit 17 Archive Downloads](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - [Java SE 17 Documentation](https://docs.oracle.com/en/java/javase/17/)
-- **Exemplo de README**: [FeeduP-Mobile](https://github.com/FeedUp-Hub/FeeduP-Mobile)
+
+-----
+
+#### 📄 README de projeto:
+
+📘 Exemplos de README de projeto:
+
+- 🌐 [Tech Fotebol Clube](https://github.com/ligiabicalho/Tech-Futebol-Clube)
+  - :octocat: [GitHub Lígia Bicalho](https://github.com/ligiabicalho)  
+- 🌐 [FeeduP-Mobile](https://github.com/FeedUp-Hub/FeeduP-Mobile)
+  - :octocat: [GitHub Fernando Santiago](https://github.com/fsaantiago)
 
 -----
