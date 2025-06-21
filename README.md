@@ -1,20 +1,6 @@
 -----
 
-<div align="center">
-    <table>
-        <tr>
-         <td align="center"></td>
-        </tr> 
-        <tr>
-            <td>
-                <img alt="newtonpaiva" src="https://joaopauloaramuni.github.io/image/newton-logo2.png?raw=true"/>
-            </td>
-        </tr>
-        <tr>
-            <td align="center"></td>
-        </tr> 
-    </table>
-</div>
+<img alt="newtonpaiva" src="https://joaopauloaramuni.github.io/image/newton-logo2.png?raw=true"/>
 
 -----
 
