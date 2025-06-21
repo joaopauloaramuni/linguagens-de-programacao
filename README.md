@@ -7,7 +7,7 @@
         </tr> 
         <tr>
             <td>
-                <img alt="newtonpaiva" src="https://joaopauloaramuni.github.io/image/newton-logo.png?raw=true"/>
+                <img alt="newtonpaiva" src="https://joaopauloaramuni.github.io/image/newton-logo2.png?raw=true"/>
             </td>
         </tr>
         <tr>
