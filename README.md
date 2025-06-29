@@ -63,6 +63,7 @@ Esses recursos ajudam a **elevar seu aprendizado, organizar seus projetos e turb
 A documentação oficial é a principal referência para aprender, consultar funcionalidades e entender o comportamento da linguagem Java e suas bibliotecas padrão. Essencial tanto para iniciantes quanto para desenvolvedores experientes.
 
 - [📖 Documentação Java SE 17](https://docs.oracle.com/en/java/javase/17/)
+- [🪟 Documentação Swing (Java SE 17)](https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/javax/swing/package-summary.html)
 
 -----
 
