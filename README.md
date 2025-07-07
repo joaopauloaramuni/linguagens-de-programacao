@@ -16,6 +16,7 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 ### Sumário:
 - [Aulas em PDF](https://github.com/joaopauloaramuni/linguagens-de-programacao/tree/main/PDF)
 - [Projetos](https://github.com/joaopauloaramuni/linguagens-de-programacao/tree/main/PROJETOS)
+- [Plano de Ensino](https://github.com/joaopauloaramuni/linguagens-de-programacao/tree/main/PLANO%20DE%20ENSINO)
 
 #### Links úteis:
 
