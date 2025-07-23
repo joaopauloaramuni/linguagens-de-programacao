@@ -196,3 +196,17 @@ A classe `UserService` atualmente contém lógica de acesso direto ao banco de d
 - [Commenting on a pull request](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request)
 
 -----
+
+#### 🏗️ Roadmap Code Review
+
+Um **roadmap** é um guia visual que apresenta etapas, habilidades ou conhecimentos necessários para atingir um objetivo específico. Ele ajuda a organizar o aprendizado ou desenvolvimento ao longo do tempo, mostrando caminhos recomendados e prioridades.
+
+- 🗺️ [Roadmap Code Review - Roadmap.sh](https://roadmap.sh/code-review)
+- 🗺️ [Roadmap Best Practices - Code Review - Roadmap.sh](https://roadmap.sh/best-practices/code-review)
+
+Veja também:
+
+- 🧭 [Roadmap Design System - Roadmap.sh](https://roadmap.sh/design-system)
+- 📐 [Roadmap UX Design - Roadmap.sh](https://roadmap.sh/ux-design)
+
+-----
