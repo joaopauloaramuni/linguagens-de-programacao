@@ -6,7 +6,7 @@
 
 # Repo Linguagens de Programação
 
-![GitHub repo size](https://img.shields.io/github/repo-size/joaopauloaramuni/linguagens-de-programacao?style=for-the-badge) ![GitHub stars](https://img.shields.io/github/stars/joaopauloaramuni/linguagens-de-programacao?style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/joaopauloaramuni/linguagens-de-programacao?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/joaopauloaramuni/linguagens-de-programacao?style=for-the-badge&color=007ec6) ![GitHub license](https://img.shields.io/github/license/joaopauloaramuni/linguagens-de-programacao?style=for-the-badge&color=007ec6)  
+![GitHub repo size](https://img.shields.io/github/repo-size/joaopauloaramuni/linguagens-de-programacao?style=for-the-badge) ![GitHub stars](https://img.shields.io/github/stars/joaopauloaramuni/linguagens-de-programacao?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/joaopauloaramuni/linguagens-de-programacao?style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/joaopauloaramuni/linguagens-de-programacao?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/joaopauloaramuni/linguagens-de-programacao?style=for-the-badge&color=007ec6) ![GitHub license](https://img.shields.io/github/license/joaopauloaramuni/linguagens-de-programacao?style=for-the-badge&color=007ec6)  
 
 Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e Análise e Desenvolvimento de Sistemas do Centro Universitário Newton Paiva
 
