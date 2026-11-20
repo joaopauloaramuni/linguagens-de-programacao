@@ -21,7 +21,7 @@ Exemplos de coleções com `ArrayList` (inserção, remoção e formas de percor
 
 - **`ExemploArrayList`** — agenda de contatos em `ArrayList<String>`, percorrida por índice, *for-each* e `Iterator`; remoção por posição tratando `IndexOutOfBoundsException`.
 - **`ExemploArrayList2`** — sorteio de 6 números distintos de 1 a 60 com `Random` e verificação de acerto com `contains`.
-- **`ExemploArrayList3`** — menu de cadastro e listagem de pessoas em `ArrayList<Pessoa>`.
+- **`ExemploArrayList3` + `Pessoa`** — menu de cadastro e listagem de pessoas em `ArrayList<Pessoa>`; a classe `Pessoa` guarda nome, endereço e telefone.
 - **`Estoque` + `EIException`** — classe de estoque que lança a exceção checada personalizada `EIException` (*Estoque Insuficiente*) ao tentar retirar mais itens do que o disponível.
 - **`ExemploExcecoes`** — uso de múltiplos `catch`, `finally`, relançamento de exceção (`throw e`) e leitura de objetos serializados (`ObjectInputStream`).
 
@@ -46,7 +46,8 @@ QuintoPrj/
         ├── ExemploArrayList.java
         ├── ExemploArrayList2.java
         ├── ExemploArrayList3.java
-        └── ExemploExcecoes.java
+        ├── ExemploExcecoes.java
+        └── Pessoa.java
 ```
 
 ## ☕ Versão do Java e tecnologias
@@ -69,10 +70,9 @@ javac -d bin $(find src -name "*.java")
 # Executar
 java -cp bin meuapp.ExemploArrayList
 java -cp bin meuapp.ExemploArrayList2
+java -cp bin meuapp.ExemploArrayList3
 java -cp bin meuapp.ExemploExcecoes
 ```
-
-> ⚠️ `ExemploArrayList3` utiliza uma classe `Pessoa` (com `nome`, `endereco`, `telefone`, `getNome()` e `toString()`) que não está no projeto — fica como exercício implementá-la antes de compilar. Para compilar os demais exemplos sem ela, remova `ExemploArrayList3.java` do comando `javac`.
 
 ## 📚 Documentação e links úteis
 
