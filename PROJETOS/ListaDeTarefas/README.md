@@ -55,6 +55,7 @@ ListaDeTarefas/
 | Java (JDK) | **17 (LTS)** |
 | Build | Apache Maven via Maven Wrapper (`mvnw` / `mvnw.cmd`) |
 | Compilador | `maven-compiler-plugin` 3.11.0 com `source` e `target` = **17** |
+| Execução | `exec-maven-plugin` 3.1.0 (`./mvnw compile exec:java`) |
 | Dependências do `pom.xml` | JavaFX 17.0.6 (`javafx-controls`, `javafx-fxml`) e JUnit Jupiter 5.9.2 — herdadas do template de projeto da IDE |
 | IDE | IntelliJ IDEA |
 
@@ -62,20 +63,15 @@ ListaDeTarefas/
 
 **Pela IDE (recomendado):** abra a pasta do projeto no IntelliJ IDEA, aguarde a importação do Maven e execute o método `main` da classe desejada.
 
-**Pelo terminal:**
+**Pelo terminal** — o `pom.xml` usa o `exec-maven-plugin` com a classe principal `ListaDeTarefas` configurada:
 
 ```bash
-# Compilar (Linux/macOS)
-./mvnw compile
+# Compilar e executar (Linux/macOS)
+./mvnw compile exec:java
 
-# Compilar (Windows)
-mvnw.cmd compile
-
-# Executar
-java -cp target/classes ListaDeTarefas
+# Compilar e executar (Windows)
+mvnw.cmd compile exec:java
 ```
-
-> ℹ️ O `javafx-maven-plugin` do `pom.xml` aponta para uma classe `HelloApplication` do template da IDE, que não faz parte do projeto. Por isso, execute as classes diretamente com `java -cp target/classes`.
 
 ## 📚 Documentação e links úteis
 
