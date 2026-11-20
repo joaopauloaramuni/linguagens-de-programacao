@@ -1,0 +1,79 @@
+-----
+
+<img alt="newtonpaiva" src="https://joaopauloaramuni.github.io/image/newton-logo2.png?raw=true"/>
+
+-----
+
+# Prj_Tarefa1 — Exercícios de algoritmos sequenciais e laço while
+
+![Java](https://img.shields.io/badge/Java-17-007ec6?style=for-the-badge&logo=openjdk&logoColor=white) ![IntelliJ IDEA](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-007ec6?style=for-the-badge&logo=intellijidea&logoColor=white) ![License](https://img.shields.io/badge/License-MIT-007ec6?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
+
+Lista de exercícios resolvidos com entrada de dados, cálculos aritméticos e repetição com `while`.
+
+> 🎓 Projeto da disciplina **Linguagens de Programação** dos cursos de **Ciência da Computação**, **Sistemas de Informação** e **Análise e Desenvolvimento de Sistemas** do **Centro Universitário Newton Paiva**.
+>
+> - 2°Sem 2023
+> - 1°Sem 2024
+
+-----
+
+## 📌 Sobre o projeto
+
+A classe `Main` executa cinco exercícios em sequência:
+
+1. Ler 4 números e exibir a soma (`while` com contador).
+2. Ler 3 notas e exibir a média.
+3. Calcular aumento salarial fixo de 25%.
+4. Calcular aumento salarial a partir de um percentual informado.
+5. Aplicar gratificação de 5% e imposto de 7% sobre um salário.
+
+## 🧠 Principais conceitos abordados
+
+- **Entrada de dados** — `Scanner` com `nextInt` e `nextDouble`
+- **Laço `while`** — repetição controlada por contador
+- **Acumuladores e contadores** — `soma += num`, `cont++`
+- **Operações aritméticas** — porcentagens, médias e divisão inteira × real
+- **Modularização** — cada exercício em um método `private static`
+
+## 📁 Estrutura do projeto
+
+```
+Prj_Tarefa1/
+└── src/
+    └── Main.java
+```
+
+## ☕ Versão do Java e tecnologias
+
+| Item | Versão / Detalhe |
+|------|------------------|
+| Java (JDK) | **17 (LTS)** |
+| IDE | IntelliJ IDEA (módulo Java simples, arquivo `.iml`) |
+
+## ▶️ Como executar
+
+**Pela IDE:** abra a pasta do projeto no IntelliJ IDEA e execute o método `main` da classe `Main`.
+
+**Pelo terminal** (a partir da pasta do projeto):
+
+```bash
+javac -d out src/*.java
+java -cp out Main
+```
+
+## 📚 Documentação e links úteis
+
+- [☕ Documentação oficial do Java SE 17 (API)](https://docs.oracle.com/en/java/javase/17/docs/api/)
+- [📘 The Java Tutorials (Oracle)](https://docs.oracle.com/javase/tutorial/)
+- [📥 Download do JDK 17 (Eclipse Temurin)](https://adoptium.net/temurin/releases/?version=17)
+- [💡 IntelliJ IDEA](https://www.jetbrains.com/pt-br/idea/)
+
+## 👨‍🏫 Professor
+
+**João Paulo Aramuni** — [GitHub](https://github.com/joaopauloaramuni)
+
+## 📄 Licença
+
+Este projeto está sob a licença **MIT**. Consulte o arquivo [LICENSE](https://github.com/joaopauloaramuni/linguagens-de-programacao/blob/main/LICENSE) na raiz do repositório para mais detalhes.
+
+Copyright (c) 2024 João Paulo Aramuni
